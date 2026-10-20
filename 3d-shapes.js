@@ -16,7 +16,7 @@ color:"#554433",
 adj:"oreo"
 
 addIngredient("disc_candy",{
-type:"rocks",
+type:"stone",
 shape:"cube",
 brokenShape:"squares_some_flat",
 color:"#554433",
