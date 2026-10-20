@@ -10,7 +10,7 @@ addIngredient("kelp_nougat",{
     type:"thick_liquid",
     color:"#85B689",
     adj:"kelp",
-    hidden:true
+    hidden:false
 });
 addIngredient("rice_treat",{
     color:["#d2cdad","#e1d4be"],
@@ -42,7 +42,7 @@ addIngredient("krabby_patty_seasoning",{
     color:"#DFE1A4",
     keywords:"seaweed,krabby,seasoning",
     adj:"addictive",
-    hidden:true,
+    hidden:false,
     reactions: {
         crab_patty: { set2:"true_krabby_meat" , set1:null },
     },
@@ -51,7 +51,7 @@ addIngredient("true_krabby_meat",{
     color:"#ff4d58",
     type:"crustacean",
     shape:"rectangle_thinner_round",
-    hidden:true,
+    hidden:false,
     height:0.5
 });
 addIngredient("imitation_crab",{
@@ -82,7 +82,7 @@ addIngredient("uranium_dust",{
     adj:"irritating",
     dissolve:true,
     shape:"powder_rough",
-    hidden:true,
+    hidden:false,
     dishWeight:-50
 });
 
@@ -118,7 +118,7 @@ editIngredient("uranium",{
     glow:"#00ff00",
     adj:"glowy",
     broken:"uranium_dust",
-    hidden:true
+    hidden:false
 });
 
 addRecipe("bread+jellyfish","jellyfish roll");
