@@ -4,16 +4,21 @@ addIngredient("3dtorus",{
 type:"shape",
 shape:"torus",
 brokenShape:"squares_some_flat",
-color:"#291d13",
-adj:"oreo"
+color:"#554433",
+adj:"torusized"
 });
 
 addIngredient("disc_candy",{
 type:"candy",
 shape:"disc",
 brokenShape:"squares_some_flat",
-color:"#291d13",
+color:"#554433",
 adj:"oreo"
-});
 
-//just 2 of them, more coming soon
+addIngredient("disc_candy",{
+type:"rocks",
+shape:"cube",
+brokenShape:"squares_some_flat",
+color:"#554433",
+adj:"rocky"
+});
